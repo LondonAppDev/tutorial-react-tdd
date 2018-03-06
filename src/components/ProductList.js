@@ -9,7 +9,7 @@ function ProductList(props) {
       {
         props.products.map(product => (
           <li key={product.id}>
-            {product.name}
+            {product.name} ({product.brand})
           </li>
         ))
       }
